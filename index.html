@@ -1,98 +1,102 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>Device Recommender</title>
+    <title>مساعد اختيار الجهاز | Device Recommender</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Device Recommendation Form</h1>
+        <div class="lang-toggle">
+            <button onclick="toggleLang()">العربية | English</button>
+        </div>
+        <h1 id="title">ما هو الجهاز المناسب لك؟</h1>
         <form id="deviceForm">
-            <label>1. What type of device are you looking for?</label>
+            <label data-ar="1. ما نوع الجهاز الذي تبحث عنه؟" data-en="1. What type of device are you looking for?"></label>
             <select name="deviceType">
-                <option>Mobile</option>
-                <option>Laptop</option>
-                <option>Tablet</option>
-                <option>TV</option>
-                <option>Home Appliance</option>
+                <option data-ar="موبايل" data-en="Mobile">موبايل</option>
+                <option data-ar="لاب توب" data-en="Laptop">لاب توب</option>
+                <option data-ar="تابلت" data-en="Tablet">تابلت</option>
+                <option data-ar="تلفزيون" data-en="TV">تلفزيون</option>
+                <option data-ar="جهاز منزلي" data-en="Home Appliance">جهاز منزلي</option>
             </select>
 
-            <label>2. What is your primary use?</label>
+            <label data-ar="2. ما هو الاستخدام الرئيسي للجهاز؟" data-en="2. What is the main use of the device?"></label>
             <select name="usage">
-                <option>Everyday use</option>
-                <option>Study/Office work</option>
-                <option>Gaming/High graphics</option>
-                <option>Media & Movies</option>
-                <option>Travel/Portable</option>
+                <option data-ar="استخدام يومي" data-en="Daily Use">استخدام يومي</option>
+                <option data-ar="دراسة أو شغل" data-en="Study/Work">دراسة أو شغل</option>
+                <option data-ar="ألعاب وجرافيكس" data-en="Gaming/Graphics">ألعاب وجرافيكس</option>
+                <option data-ar="مشاهدة أفلام" data-en="Watching Movies">مشاهدة أفلام</option>
+                <option data-ar="تنقل وسفر" data-en="Traveling">تنقل وسفر</option>
             </select>
 
-            <label>3. What is your budget range?</label>
+            <label data-ar="3. ما ميزانيتك؟" data-en="3. What is your budget?"></label>
             <select name="budget">
-                <option>Below 3000 EGP</option>
-                <option>3000 - 6000 EGP</option>
-                <option>6000 - 10000 EGP</option>
-                <option>Above 10000 EGP</option>
+                <option data-ar="أقل من 3000 جنيه" data-en="Less than 3000 EGP">أقل من 3000 جنيه</option>
+                <option data-ar="من 3000 لـ 6000 جنيه" data-en="3000 to 6000 EGP">من 3000 لـ 6000 جنيه</option>
+                <option data-ar="من 6000 لـ 10000 جنيه" data-en="6000 to 10000 EGP">من 6000 لـ 10000 جنيه</option>
+                <option data-ar="أكثر من 10000 جنيه" data-en="More than 10000 EGP">أكثر من 10000 جنيه</option>
             </select>
 
-            <label>4. Do you prefer a specific brand?</label>
+            <label data-ar="4. هل تفضل ماركة معينة؟" data-en="4. Do you prefer a specific brand?"></label>
             <select name="brand">
-                <option>Samsung</option>
-                <option>Apple</option>
-                <option>Huawei</option>
-                <option>Xiaomi</option>
-                <option>HP/Dell/Lenovo</option>
-                <option>Doesn't matter</option>
+                <option data-ar="سامسونج" data-en="Samsung">سامسونج</option>
+                <option data-ar="أبل" data-en="Apple">أبل</option>
+                <option data-ar="هواوي" data-en="Huawei">هواوي</option>
+                <option data-ar="شاومي" data-en="Xiaomi">شاومي</option>
+                <option data-ar="HP / Dell / Lenovo" data-en="HP / Dell / Lenovo">HP / Dell / Lenovo</option>
+                <option data-ar="لا يهم" data-en="Doesn't matter">لا يهم</option>
             </select>
 
-            <label>5. New or Used device?</label>
+            <label data-ar="5. جديد أم مستعمل؟" data-en="5. New or Used?"></label>
             <select name="condition">
-                <option>New only</option>
-                <option>Used is OK</option>
+                <option data-ar="جديد" data-en="New">جديد</option>
+                <option data-ar="مستعمل" data-en="Used">مستعمل</option>
             </select>
 
-            <label>6. What matters most to you?</label>
+            <label data-ar="6. ما الأهم بالنسبة لك؟" data-en="6. What’s most important to you?"></label>
             <select name="priority">
-                <option>Performance</option>
-                <option>Design</option>
-                <option>Both</option>
+                <option data-ar="الأداء" data-en="Performance">الأداء</option>
+                <option data-ar="الشكل" data-en="Design">الشكل</option>
+                <option data-ar="الاثنين" data-en="Both">الاثنين</option>
             </select>
 
-            <label>7. Do you need local warranty?</label>
+            <label data-ar="7. هل تحتاج لضمان؟" data-en="7. Do you need warranty?"></label>
             <select name="warranty">
-                <option>Yes</option>
-                <option>No</option>
+                <option data-ar="نعم" data-en="Yes">نعم</option>
+                <option data-ar="لا" data-en="No">لا</option>
             </select>
 
-            <label>8. Any specific features you care about?</label>
-            <select name="feature">
-                <option>Strong Battery</option>
-                <option>Excellent Camera</option>
-                <option>Lightweight</option>
-                <option>Large Screen</option>
-                <option>No preferences</option>
+            <label data-ar="8. هل لديك متطلبات خاصة؟" data-en="8. Do you have special requirements?"></label>
+            <select name="features">
+                <option data-ar="بطارية قوية" data-en="Strong battery">بطارية قوية</option>
+                <option data-ar="كاميرا ممتازة" data-en="Great camera">كاميرا ممتازة</option>
+                <option data-ar="خفيف الوزن" data-en="Lightweight">خفيف الوزن</option>
+                <option data-ar="شاشة كبيرة" data-en="Large screen">شاشة كبيرة</option>
+                <option data-ar="بدون متطلبات خاصة" data-en="No special requirements">بدون متطلبات خاصة</option>
             </select>
 
-            <label>9. How long do you plan to use the device?</label>
+            <label data-ar="9. كم تتوقع استخدامك للجهاز؟" data-en="9. How long do you plan to use it?"></label>
             <select name="duration">
-                <option>Less than 1 year</option>
-                <option>1-3 years</option>
-                <option>More than 3 years</option>
+                <option data-ar="أقل من سنة" data-en="Less than a year">أقل من سنة</option>
+                <option data-ar="1 - 3 سنوات" data-en="1-3 years">1 - 3 سنوات</option>
+                <option data-ar="أكثر من 3 سنوات" data-en="More than 3 years">أكثر من 3 سنوات</option>
             </select>
 
-            <label>10. Preferred place of purchase?</label>
-            <select name="purchase">
-                <option>Online</option>
-                <option>Retail Store</option>
-                <option>Doesn't matter</option>
+            <label data-ar="10. كيف تفضل الشراء؟" data-en="10. How do you prefer to buy?"></label>
+            <select name="buyMethod">
+                <option data-ar="أونلاين" data-en="Online">أونلاين</option>
+                <option data-ar="من محل" data-en="From a store">من محل</option>
+                <option data-ar="لا فرق" data-en="No preference">لا فرق</option>
             </select>
 
-            <button type="submit">Get Recommendation</button>
+            <button type="submit" id="submitBtn">اعرض الترشيح</button>
         </form>
 
         <div id="result"></div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>

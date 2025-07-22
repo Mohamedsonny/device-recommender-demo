@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>مساعد اختيار الأجهزة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>مساعد اختيار الأجهزة الذكية</h1>
+  <form id="questionnaire">
+    <label>نوع الجهاز:
+      <select id="device-type">
+        <option value="mobaile">موبايل</option>
+        <option value="laptop">لابتوب</option>
+        <option value="tv">تلفزيون</option>
+      </select>
+    </label><br><br>
+    <label>الميزانية:
+      <select id="budget">
+        <option value="low">أقل من 5000</option>
+        <option value="mid">5000 - 10000</option>
+        <option value="high">أكثر من 10000</option>
+      </select>
+    </label><br><br>
+    <button type="submit">أرني الترشيحات</button>
+  </form>
+  <div id="results"></div>
+  <script src="script.js"></script>
+</body>
+</html>

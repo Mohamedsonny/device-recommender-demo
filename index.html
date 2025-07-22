@@ -1,30 +1,98 @@
+
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>مساعد اختيار الأجهزة</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Device Recommender</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>مساعد اختيار الأجهزة الذكية</h1>
-  <form id="questionnaire">
-    <label>نوع الجهاز:
-      <select id="device-type">
-        <option value="mobaile">موبايل</option>
-        <option value="laptop">لابتوب</option>
-        <option value="tv">تلفزيون</option>
-      </select>
-    </label><br><br>
-    <label>الميزانية:
-      <select id="budget">
-        <option value="low">أقل من 5000</option>
-        <option value="mid">5000 - 10000</option>
-        <option value="high">أكثر من 10000</option>
-      </select>
-    </label><br><br>
-    <button type="submit">أرني الترشيحات</button>
-  </form>
-  <div id="results"></div>
-  <script src="script.js"></script>
+    <div class="container">
+        <h1>Device Recommendation Form</h1>
+        <form id="deviceForm">
+            <label>1. What type of device are you looking for?</label>
+            <select name="deviceType">
+                <option>Mobile</option>
+                <option>Laptop</option>
+                <option>Tablet</option>
+                <option>TV</option>
+                <option>Home Appliance</option>
+            </select>
+
+            <label>2. What is your primary use?</label>
+            <select name="usage">
+                <option>Everyday use</option>
+                <option>Study/Office work</option>
+                <option>Gaming/High graphics</option>
+                <option>Media & Movies</option>
+                <option>Travel/Portable</option>
+            </select>
+
+            <label>3. What is your budget range?</label>
+            <select name="budget">
+                <option>Below 3000 EGP</option>
+                <option>3000 - 6000 EGP</option>
+                <option>6000 - 10000 EGP</option>
+                <option>Above 10000 EGP</option>
+            </select>
+
+            <label>4. Do you prefer a specific brand?</label>
+            <select name="brand">
+                <option>Samsung</option>
+                <option>Apple</option>
+                <option>Huawei</option>
+                <option>Xiaomi</option>
+                <option>HP/Dell/Lenovo</option>
+                <option>Doesn't matter</option>
+            </select>
+
+            <label>5. New or Used device?</label>
+            <select name="condition">
+                <option>New only</option>
+                <option>Used is OK</option>
+            </select>
+
+            <label>6. What matters most to you?</label>
+            <select name="priority">
+                <option>Performance</option>
+                <option>Design</option>
+                <option>Both</option>
+            </select>
+
+            <label>7. Do you need local warranty?</label>
+            <select name="warranty">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+
+            <label>8. Any specific features you care about?</label>
+            <select name="feature">
+                <option>Strong Battery</option>
+                <option>Excellent Camera</option>
+                <option>Lightweight</option>
+                <option>Large Screen</option>
+                <option>No preferences</option>
+            </select>
+
+            <label>9. How long do you plan to use the device?</label>
+            <select name="duration">
+                <option>Less than 1 year</option>
+                <option>1-3 years</option>
+                <option>More than 3 years</option>
+            </select>
+
+            <label>10. Preferred place of purchase?</label>
+            <select name="purchase">
+                <option>Online</option>
+                <option>Retail Store</option>
+                <option>Doesn't matter</option>
+            </select>
+
+            <button type="submit">Get Recommendation</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

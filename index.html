@@ -4,33 +4,44 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>ترشيحات الأجهزة</title>
+    <title>موقع ترشيحات الأجهزة</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class="container">
-        <h1 id="page-title">ترشيحات الأجهزة الذكية</h1>
+        <header>
+            <h1 id="page-title">مرحبًا بك في موقع ترشيحات الأجهزة</h1>
+            <p>أجب على الأسئلة التالية وسنقترح لك أفضل جهاز يناسب احتياجاتك.</p>
+        </header>
 
-        <form id="device-form">
-            <label for="budget">ما ميزانيتك؟</label>
-            <select id="budget">
-                <option value="low">منخفضة</option>
-                <option value="medium">متوسطة</option>
-                <option value="high">مرتفعة</option>
-            </select>
+        <main>
+            <form id="device-form">
+                <label for="budget">ما ميزانيتك؟</label>
+                <select id="budget">
+                    <option value="low">منخفضة</option>
+                    <option value="medium">متوسطة</option>
+                    <option value="high">مرتفعة</option>
+                </select>
 
-            <label for="usage">ما نوع الاستخدام؟</label>
-            <select id="usage">
-                <option value="basic">استخدام أساسي (تصفح - واتساب)</option>
-                <option value="gaming">ألعاب</option>
-                <option value="camera">تصوير</option>
-                <option value="business">شغل وشركات</option>
-            </select>
+                <label for="usage">ما نوع الاستخدام؟</label>
+                <select id="usage">
+                    <option value="basic">استخدام أساسي (تصفح - واتساب)</option>
+                    <option value="gaming">ألعاب</option>
+                    <option value="camera">تصوير</option>
+                    <option value="business">شغل وشركات</option>
+                </select>
 
-            <button type="submit" id="recommend-button">عرض الترشيحات</button>
-        </form>
+                <button type="submit" id="recommend-button">عرض الترشيحات</button>
+            </form>
 
-        <div id="product-results"></div>
+            <section id="product-results">
+                <!-- سيتم عرض المنتجات هنا -->
+            </section>
+        </main>
+
+        <footer>
+            <p>جميع الحقوق محفوظة &copy; 2025</p>
+        </footer>
     </div>
 
     <script src="script.js"></script>

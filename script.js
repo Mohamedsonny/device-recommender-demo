@@ -1,45 +1,30 @@
 
-let currentLang = "ar";
+// دالة لتحميل وعرض المنتجات من ملف JSON
+async function loadProducts() {
+    try {
+        const response = await fetch('products.json');
+        const data = await response.json();
 
-const texts = {
-  ar: {
-    title: "ما هو الجهاز المناسب لك؟",
-    submit: "اعرض الترشيحات",
-    langToggle: "English"
-  },
-  en: {
-    title: "What device suits you best?",
-    submit: "Show Recommendations",
-    langToggle: "العربية"
-  }
-};
+        const container = document.getElementById('product-results');
+        container.innerHTML = '';
 
-function toggleLang() {
-  currentLang = currentLang === "ar" ? "en" : "ar";
-  updateLang();
+        data.forEach(product => {
+            const item = document.createElement('div');
+            item.className = 'product-card';
+            item.innerHTML = `
+                <h3>${product.title}</h3>
+                <img src="${product.image}" alt="${product.title}" style="max-width: 150px;">
+                <p><strong>الموقع:</strong> ${product.site}</p>
+                <p><strong>السعر:</strong> ${product.price} جنيه</p>
+                <a href="${product.link}" target="_blank">رابط المنتج</a>
+                <hr/>
+            `;
+            container.appendChild(item);
+        });
+    } catch (error) {
+        console.error('خطأ في تحميل المنتجات:', error);
+    }
 }
 
-function updateLang() {
-  document.getElementById("title").innerText = texts[currentLang].title;
-  document.getElementById("submitBtn").innerText = texts[currentLang].submit;
-  document.getElementById("langBtn").innerText = texts[currentLang].langToggle;
-  document.documentElement.dir = (currentLang === "ar") ? "rtl" : "ltr";
-}
-
-// إعداد المرة الأولى
-document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("langBtn").addEventListener("click", toggleLang);
-  updateLang();
-});
-
-// جزء الترشيحات (مؤقت – بيانات ثابتة)
-document.getElementById("deviceForm").addEventListener("submit", event => {
-  event.preventDefault();
-  const d = document.deviceForm.deviceType.value;
-  const u = document.deviceForm.usage.value;
-  const b = document.deviceForm.budget.value;
-  document.getElementById("result").innerText = 
-    (currentLang === "ar")
-      ? `نوصي بـ ${d} لاستخدام ${u} بميزانية ${b}.`
-      : `We recommend a ${d} for ${u} with a budget of ${b}.`;
-});
+// تنفيذ الدالة عند تحميل الصفحة
+window.onload = loadProducts;

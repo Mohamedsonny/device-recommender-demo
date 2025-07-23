@@ -2,99 +2,35 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>مساعد اختيار الجهاز | Device Recommender</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ترشيحات الأجهزة</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class="container">
-        <div class="lang-toggle">
-            <button onclick="toggleLang()">العربية | English</button>
-        </div>
-        <h1 id="title">ما هو الجهاز المناسب لك؟</h1>
-        <form id="deviceForm">
-            <label data-ar="1. ما نوع الجهاز الذي تبحث عنه؟" data-en="1. What type of device are you looking for?"></label>
-            <select name="deviceType">
-                <option data-ar="موبايل" data-en="Mobile">موبايل</option>
-                <option data-ar="لاب توب" data-en="Laptop">لاب توب</option>
-                <option data-ar="تابلت" data-en="Tablet">تابلت</option>
-                <option data-ar="تلفزيون" data-en="TV">تلفزيون</option>
-                <option data-ar="جهاز منزلي" data-en="Home Appliance">جهاز منزلي</option>
+        <h1 id="page-title">ترشيحات الأجهزة الذكية</h1>
+
+        <form id="device-form">
+            <label for="budget">ما ميزانيتك؟</label>
+            <select id="budget">
+                <option value="low">منخفضة</option>
+                <option value="medium">متوسطة</option>
+                <option value="high">مرتفعة</option>
             </select>
 
-            <label data-ar="2. ما هو الاستخدام الرئيسي للجهاز؟" data-en="2. What is the main use of the device?"></label>
-            <select name="usage">
-                <option data-ar="استخدام يومي" data-en="Daily Use">استخدام يومي</option>
-                <option data-ar="دراسة أو شغل" data-en="Study/Work">دراسة أو شغل</option>
-                <option data-ar="ألعاب وجرافيكس" data-en="Gaming/Graphics">ألعاب وجرافيكس</option>
-                <option data-ar="مشاهدة أفلام" data-en="Watching Movies">مشاهدة أفلام</option>
-                <option data-ar="تنقل وسفر" data-en="Traveling">تنقل وسفر</option>
+            <label for="usage">ما نوع الاستخدام؟</label>
+            <select id="usage">
+                <option value="basic">استخدام أساسي (تصفح - واتساب)</option>
+                <option value="gaming">ألعاب</option>
+                <option value="camera">تصوير</option>
+                <option value="business">شغل وشركات</option>
             </select>
 
-            <label data-ar="3. ما ميزانيتك؟" data-en="3. What is your budget?"></label>
-            <select name="budget">
-                <option data-ar="أقل من 3000 جنيه" data-en="Less than 3000 EGP">أقل من 3000 جنيه</option>
-                <option data-ar="من 3000 لـ 6000 جنيه" data-en="3000 to 6000 EGP">من 3000 لـ 6000 جنيه</option>
-                <option data-ar="من 6000 لـ 10000 جنيه" data-en="6000 to 10000 EGP">من 6000 لـ 10000 جنيه</option>
-                <option data-ar="أكثر من 10000 جنيه" data-en="More than 10000 EGP">أكثر من 10000 جنيه</option>
-            </select>
-
-            <label data-ar="4. هل تفضل ماركة معينة؟" data-en="4. Do you prefer a specific brand?"></label>
-            <select name="brand">
-                <option data-ar="سامسونج" data-en="Samsung">سامسونج</option>
-                <option data-ar="أبل" data-en="Apple">أبل</option>
-                <option data-ar="هواوي" data-en="Huawei">هواوي</option>
-                <option data-ar="شاومي" data-en="Xiaomi">شاومي</option>
-                <option data-ar="HP / Dell / Lenovo" data-en="HP / Dell / Lenovo">HP / Dell / Lenovo</option>
-                <option data-ar="لا يهم" data-en="Doesn't matter">لا يهم</option>
-            </select>
-
-            <label data-ar="5. جديد أم مستعمل؟" data-en="5. New or Used?"></label>
-            <select name="condition">
-                <option data-ar="جديد" data-en="New">جديد</option>
-                <option data-ar="مستعمل" data-en="Used">مستعمل</option>
-            </select>
-
-            <label data-ar="6. ما الأهم بالنسبة لك؟" data-en="6. What’s most important to you?"></label>
-            <select name="priority">
-                <option data-ar="الأداء" data-en="Performance">الأداء</option>
-                <option data-ar="الشكل" data-en="Design">الشكل</option>
-                <option data-ar="الاثنين" data-en="Both">الاثنين</option>
-            </select>
-
-            <label data-ar="7. هل تحتاج لضمان؟" data-en="7. Do you need warranty?"></label>
-            <select name="warranty">
-                <option data-ar="نعم" data-en="Yes">نعم</option>
-                <option data-ar="لا" data-en="No">لا</option>
-            </select>
-
-            <label data-ar="8. هل لديك متطلبات خاصة؟" data-en="8. Do you have special requirements?"></label>
-            <select name="features">
-                <option data-ar="بطارية قوية" data-en="Strong battery">بطارية قوية</option>
-                <option data-ar="كاميرا ممتازة" data-en="Great camera">كاميرا ممتازة</option>
-                <option data-ar="خفيف الوزن" data-en="Lightweight">خفيف الوزن</option>
-                <option data-ar="شاشة كبيرة" data-en="Large screen">شاشة كبيرة</option>
-                <option data-ar="بدون متطلبات خاصة" data-en="No special requirements">بدون متطلبات خاصة</option>
-            </select>
-
-            <label data-ar="9. كم تتوقع استخدامك للجهاز؟" data-en="9. How long do you plan to use it?"></label>
-            <select name="duration">
-                <option data-ar="أقل من سنة" data-en="Less than a year">أقل من سنة</option>
-                <option data-ar="1 - 3 سنوات" data-en="1-3 years">1 - 3 سنوات</option>
-                <option data-ar="أكثر من 3 سنوات" data-en="More than 3 years">أكثر من 3 سنوات</option>
-            </select>
-
-            <label data-ar="10. كيف تفضل الشراء؟" data-en="10. How do you prefer to buy?"></label>
-            <select name="buyMethod">
-                <option data-ar="أونلاين" data-en="Online">أونلاين</option>
-                <option data-ar="من محل" data-en="From a store">من محل</option>
-                <option data-ar="لا فرق" data-en="No preference">لا فرق</option>
-            </select>
-
-            <button type="submit" id="submitBtn">اعرض الترشيح</button>
+            <button type="submit" id="recommend-button">عرض الترشيحات</button>
         </form>
 
-        <div id="result"></div>
+        <div id="product-results"></div>
     </div>
 
     <script src="script.js"></script>

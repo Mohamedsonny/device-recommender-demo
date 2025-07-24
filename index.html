@@ -1,40 +1,23 @@
-
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مُرشح الأجهزة</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Device Recommender</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1 id="title">مرحبًا بك في مُرشح الأجهزة</h1>
-        <button id="lang-toggle">English</button>
-    </header>
-
-    <main>
-        <form id="question-form">
-            <label for="category" id="label-category">اختر نوع الجهاز:</label>
-            <select id="category" name="category">
-                <option value="laptop">لابتوب</option>
-                <option value="mobile">موبايل</option>
-                <option value="tablet">تابلت</option>
-            </select>
-
-            <div id="dynamic-questions">
-                <!-- Dynamic questions will be injected here -->
-            </div>
-
-            <button type="submit" id="submit-btn">عرض الترشيحات</button>
-        </form>
-
-        <section id="recommendations">
-            <h2 id="results-title">الترشيحات</h2>
-            <div id="results-container"></div>
-        </section>
-    </main>
-
-    <script src="script.js"></script>
+  <div class="language-toggle">
+    <button onclick="toggleLanguage()">
+      🌐 <span id="language-label">English</span>
+    </button>
+  </div>
+  <div class="container">
+    <h1 id="title">اختر الجهاز المناسب لك</h1>
+    <form id="questionnaire"></form>
+    <button id="submit-btn" onclick="getRecommendations()">عرض الترشيحات</button>
+    <div id="recommendations"></div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

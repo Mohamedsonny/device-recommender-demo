@@ -1,108 +1,106 @@
+let currentLanguage = 'ar';
+let questions = {
+  ar: {
+    deviceType: "ما نوع الجهاز الذي تبحث عنه؟",
+    priceRange: "ما هو نطاق السعر المفضل؟",
+    brandPreference: "هل تفضل علامة تجارية معينة؟",
+    usage: "ما هو الغرض الأساسي من الجهاز؟",
+    portability: "هل تفضل جهاز محمول؟",
+    performance: "ما مستوى الأداء المطلوب؟",
+    screenSize: "ما حجم الشاشة المفضل؟",
+    battery: "ما مدى أهمية عمر البطارية؟",
+    storage: "كم سعة التخزين التي تحتاجها؟",
+    camera: "هل جودة الكاميرا مهمة؟"
+  },
+  en: {
+    deviceType: "What type of device are you looking for?",
+    priceRange: "What is your preferred price range?",
+    brandPreference: "Do you prefer a specific brand?",
+    usage: "What is the primary use of the device?",
+    portability: "Do you prefer a portable device?",
+    performance: "What performance level do you need?",
+    screenSize: "What screen size do you prefer?",
+    battery: "How important is battery life?",
+    storage: "How much storage do you need?",
+    camera: "Is camera quality important?"
+  }
+};
 
-document.addEventListener("DOMContentLoaded", function () {
-    const langToggleBtn = document.getElementById("lang-toggle");
-    const title = document.getElementById("title");
-    const labelCategory = document.getElementById("label-category");
-    const submitBtn = document.getElementById("submit-btn");
-    const resultsTitle = document.getElementById("results-title");
-    const categorySelect = document.getElementById("category");
-    const form = document.getElementById("question-form");
-    const resultsContainer = document.getElementById("results-container");
-    const dynamicQuestions = document.getElementById("dynamic-questions");
+let options = {
+  deviceType: {
+    ar: ["موبايل", "لاب توب", "تابلت", "تلفزيون"],
+    en: ["Mobile", "Laptop", "Tablet", "TV"]
+  },
+  priceRange: {
+    ar: ["أقل من 5000", "5000 - 10000", "أعلى من 10000"],
+    en: ["Under 5000", "5000 - 10000", "Above 10000"]
+  },
+  brandPreference: {
+    ar: ["لا يهم", "سامسونج", "شاومي", "أبل", "لينوفو", "ديل"],
+    en: ["No Preference", "Samsung", "Xiaomi", "Apple", "Lenovo", "Dell"]
+  },
+  usage: {
+    ar: ["عام", "للألعاب", "للشغل", "للدراسة"],
+    en: ["General", "Gaming", "Work", "Study"]
+  }
+};
 
-    let currentLang = "ar";
+function toggleLanguage() {
+  currentLanguage = currentLanguage === 'ar' ? 'en' : 'ar';
+  document.getElementById("language-label").textContent = currentLanguage === 'ar' ? 'العربية' : 'English';
+  document.getElementById("title").textContent =
+    currentLanguage === 'ar' ? 'اختر الجهاز المناسب لك' : 'Choose the right device for you';
+  renderQuestions();
+}
 
-    const translations = {
-        ar: {
-            title: "مرحبًا بك في مُرشح الأجهزة",
-            labelCategory: "اختر نوع الجهاز:",
-            submitBtn: "عرض الترشيحات",
-            resultsTitle: "الترشيحات",
-            langButton: "English"
-        },
-        en: {
-            title: "Welcome to Device Recommender",
-            labelCategory: "Select device type:",
-            submitBtn: "Show Recommendations",
-            resultsTitle: "Recommendations",
-            langButton: "العربية"
-        }
-    };
+function renderQuestions() {
+  const form = document.getElementById("questionnaire");
+  form.innerHTML = "";
+  const q = questions[currentLanguage];
+  const lang = currentLanguage;
 
-    const questionsByCategory = {
-        laptop: [
-            { id: "budget", label: { ar: "ما ميزانيتك؟", en: "What's your budget?" }, type: "select", options: ["10000", "20000", "30000+"] },
-            { id: "use", label: { ar: "ما استخدامك الأساسي؟", en: "What's your primary use?" }, type: "select", options: ["تصميم", "ألعاب", "تصفح"] }
-        ],
-        mobile: [
-            { id: "budget", label: { ar: "ما ميزانيتك؟", en: "What's your budget?" }, type: "select", options: ["5000", "10000", "15000+"] },
-            { id: "camera", label: { ar: "هل تفضل كاميرا ممتازة؟", en: "Do you prefer a great camera?" }, type: "select", options: ["نعم", "لا"] }
-        ]
-    };
-
-    const products = {
-        laptop: [
-            { name: "HP Pavilion", price: 20000 },
-            { name: "Lenovo Legion", price: 30000 }
-        ],
-        mobile: [
-            { name: "Samsung Galaxy A15", price: 9500 },
-            { name: "Infinix Note 40", price: 7999 }
-        ]
-    };
-
-    function updateLanguage() {
-        const t = translations[currentLang];
-        title.textContent = t.title;
-        labelCategory.textContent = t.labelCategory;
-        submitBtn.textContent = t.submitBtn;
-        resultsTitle.textContent = t.resultsTitle;
-        langToggleBtn.textContent = t.langButton;
-        renderDynamicQuestions();
-    }
-
-    langToggleBtn.addEventListener("click", () => {
-        currentLang = currentLang === "ar" ? "en" : "ar";
-        document.documentElement.lang = currentLang;
-        document.documentElement.dir = currentLang === "ar" ? "rtl" : "ltr";
-        updateLanguage();
+  for (let key in q) {
+    const label = document.createElement("label");
+    label.textContent = q[key];
+    const select = document.createElement("select");
+    select.name = key;
+    (options[key] ? options[key][lang] : ["نعم", "لا"]).forEach(opt => {
+      const option = document.createElement("option");
+      option.value = opt;
+      option.text = opt;
+      select.appendChild(option);
     });
+    form.appendChild(label);
+    form.appendChild(select);
+    form.appendChild(document.createElement("br"));
+  }
+}
 
-    categorySelect.addEventListener("change", renderDynamicQuestions);
+function getRecommendations() {
+  const selects = document.querySelectorAll("#questionnaire select");
+  let answers = {};
+  selects.forEach(sel => {
+    answers[sel.name] = sel.value;
+  });
 
-    function renderDynamicQuestions() {
-        const selectedCategory = categorySelect.value;
-        const questions = questionsByCategory[selectedCategory] || [];
-        dynamicQuestions.innerHTML = "";
-        questions.forEach(q => {
-            const label = document.createElement("label");
-            label.textContent = q.label[currentLang];
-            const select = document.createElement("select");
-            select.name = q.id;
-            q.options.forEach(opt => {
-                const option = document.createElement("option");
-                option.value = opt;
-                option.textContent = opt;
-                select.appendChild(option);
-            });
-            dynamicQuestions.appendChild(label);
-            dynamicQuestions.appendChild(select);
-        });
-    }
+  fetch("products.json")
+    .then(res => res.json())
+    .then(data => {
+      let filtered = data.filter(product => {
+        return product.type === answers.deviceType &&
+               product.priceRange === answers.priceRange &&
+               product.usage.includes(answers.usage);
+      });
 
-    form.addEventListener("submit", function (e) {
-        e.preventDefault();
-        const category = categorySelect.value;
-        const selectedProducts = products[category] || [];
-        resultsContainer.innerHTML = "";
-        selectedProducts.forEach(product => {
-            const div = document.createElement("div");
-            div.className = "product";
-            div.innerHTML = `<strong>${product.name}</strong> - ${product.price} EGP`;
-            resultsContainer.appendChild(div);
-        });
+      let output = "<h2>الترشيحات:</h2>";
+      if (filtered.length === 0) output += "<p>لا توجد نتائج مطابقة</p>";
+      filtered.forEach(p => {
+        output += `<div><h3>${p.name}</h3><p>${p.description}</p><a href="${p.link}" target="_blank">رابط الشراء</a></div><hr/>`;
+      });
+      document.getElementById("recommendations").innerHTML = output;
     });
+}
 
-    // Initial render
-    renderDynamicQuestions();
-});
+window.onload = () => {
+  renderQuestions();
+};

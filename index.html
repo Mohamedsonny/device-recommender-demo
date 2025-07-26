@@ -1,21 +1,14 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>مساعد ترشيح الأجهزة</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Device Recommender</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="language-toggle">
-    <button onclick="toggleLanguage()">🌐 <span id="language-label">العربية</span></button>
-  </div>
-  <div class="container">
-    <h1 id="title">اختر نوع الجهاز</h1>
-    <form id="questionnaire"></form>
-    <button onclick="getRecommendations()">عرض الترشيحات</button>
-    <div id="recommendations"></div>
-  </div>
+  <h1>Device Recommender</h1>
+  <div id="products"></div>
   <script src="script.js"></script>
 </body>
 </html>

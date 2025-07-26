@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Samsung Galaxy A14",
+    "type": "موبايل",
+    "budget": "أقل من 5000",
+    "usage": ["عام", "للدراسة"],
+    "description": "هاتف ذكي اقتصادي بأداء جيد",
+    "link": "https://www.example.com/samsung-a14"
+  },
+  {
+    "name": "Dell Inspiron",
+    "type": "لاب توب",
+    "budget": "10000 - 20000",
+    "usage": ["للشغل", "للدراسة"],
+    "description": "لابتوب مناسب للاستخدام المكتبي والدراسة",
+    "link": "https://www.example.com/dell-inspiron"
+  }
+]

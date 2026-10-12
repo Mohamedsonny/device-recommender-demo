@@ -1,5 +1,6 @@
 ## Writes reports/after.csv and reports/summary.md from the level files, and merges
-## reports/before_*.csv into reports/before.csv.
+## reports/before_*.csv into reports/before.csv (then deletes the parts).
+## reports/ has a .gdignore so Godot does not import the CSVs as translations.
 ## Usage: godot --headless -s tools/report.gd
 extends SceneTree
 
@@ -45,8 +46,15 @@ func _merge_before() -> Dictionary:
 			for line in FileAccess.get_file_as_string("res://reports/" + name).split("\n", false):
 				lines.append(line)
 	if lines.is_empty():
+		# No new parts: keep the merged file from the last run.
+		var old := FileAccess.get_file_as_string("res://reports/before.csv").split("\n", false)
+		for i in range(1, old.size()):
+			out[int(old[i].split(",")[0])] = float(old[i].split(",")[3])
 		return out
 	lines.sort_custom(func(a, b): return int(a.split(",")[0]) < int(b.split(",")[0]))
+	for name in DirAccess.get_files_at("res://reports"):
+		if name.begins_with("before_") and name.ends_with(".csv"):
+			DirAccess.remove_absolute("res://reports/" + name)
 	var f := FileAccess.open("res://reports/before.csv", FileAccess.WRITE)
 	f.store_line("level,garage,item,random_loss_pct,smart_win_pct")
 	for line in lines:

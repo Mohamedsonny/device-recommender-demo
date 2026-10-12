@@ -1,0 +1,306 @@
+{
+  "id": 59,
+  "garage": 3,
+  "garage_name": "جراج المول",
+  "item": "om_ali",
+  "item_name": "أم علي",
+  "extreme": false,
+  "band": [
+    30,
+    45
+  ],
+  "w": 24,
+  "h": 30,
+  "palette": [
+    "#4F8A3C",
+    "#8B4A2B",
+    "#F4E6C8",
+    "#C07A3A",
+    "#9AA0A6"
+  ],
+  "cells": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQAAAAAAAAAAAAAAAAEBAQECAgICAgIBAQEBAAAAAAAAAAAAAQEBAgICAgICAgICAgEBAQAAAAAAAAABAQECAgICAgICAgICAgICAQEAAAAAAAABAQICAgICAwMCAgICAgICAQEBAAAAAAEBAgICAgIDAwMCAgICAgICAgEBAAAAAAEBAgICAgIDAwICAgICAgICAgEBAAAAAAECAgICAgICAgICAgICAgICAgIBAQAAAQECAgICAgICAgICAgICAgICAgIBAQAAAQECAgMDAgICAgICAgICAgICAgIBAQAAAQEBAgMDAgICAgICAgICAgICAgEBAQAABAEBAgICAgICAgMCAgICAgICAgEBBAQEBAEBAQICAgICAgMDAgMCAgICAQEBBAQEBAQBAQECAgICAgIDAwMCAgIBAQEBBAQEBAQBAQEBAgICAgICAgICAgEBAQEEBAQEBAQEAQEBAQEBAgICAgEBAQEBAQQEBAQEBAQEBAEBAQEBAQEBAQEBAQEBBAQEBAQEBAQEBAQEAQEBAQEBAQEBAQQEBAQEBAQEBAQEBAQEBAQEAQEBAQQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE",
+  "queues": [
+    [
+      {
+        "c": 4,
+        "n": 26
+      },
+      {
+        "c": 4,
+        "n": 25
+      },
+      {
+        "c": 4,
+        "n": 25,
+        "hidden": true
+      },
+      {
+        "c": 2,
+        "n": 29
+      },
+      {
+        "c": 1,
+        "n": 17
+      }
+    ],
+    [
+      {
+        "c": 1,
+        "n": 16
+      },
+      {
+        "c": 2,
+        "n": 26
+      },
+      {
+        "c": 0,
+        "n": 17
+      },
+      {
+        "c": 2,
+        "n": 24
+      },
+      {
+        "c": 0,
+        "n": 13
+      },
+      {
+        "c": 0,
+        "n": 31,
+        "hidden": true
+      }
+    ],
+    [
+      {
+        "c": 4,
+        "n": 20
+      },
+      {
+        "c": 4,
+        "n": 22
+      },
+      {
+        "c": 1,
+        "n": 32,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 30
+      },
+      {
+        "c": 0,
+        "n": 34,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 16
+      }
+    ],
+    [
+      {
+        "c": 4,
+        "n": 32
+      },
+      {
+        "c": 3,
+        "n": 18
+      },
+      {
+        "c": 1,
+        "n": 14,
+        "hidden": true
+      },
+      {
+        "c": 1,
+        "n": 19,
+        "hidden": true
+      },
+      {
+        "c": 2,
+        "n": 37
+      }
+    ],
+    [
+      {
+        "c": 4,
+        "n": 18
+      },
+      {
+        "c": 1,
+        "n": 30
+      },
+      {
+        "c": 2,
+        "n": 13
+      },
+      {
+        "c": 4,
+        "n": 23
+      },
+      {
+        "c": 2,
+        "n": 25
+      },
+      {
+        "c": 2,
+        "n": 14
+      },
+      {
+        "c": 2,
+        "n": 15
+      },
+      {
+        "c": 0,
+        "n": 34,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 25
+      },
+      {
+        "tow": true,
+        "n": 5
+      }
+    ]
+  ],
+  "bays": 5,
+  "gate": "bottom",
+  "cars_per_tick": 3,
+  "solution": [
+    [
+      0,
+      0
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      17,
+      3
+    ],
+    [
+      25,
+      4
+    ],
+    [
+      32,
+      0
+    ],
+    [
+      33,
+      1
+    ],
+    [
+      42,
+      2
+    ],
+    [
+      47,
+      4
+    ],
+    [
+      55,
+      4
+    ],
+    [
+      58,
+      4
+    ],
+    [
+      66,
+      4
+    ],
+    [
+      66,
+      2
+    ],
+    [
+      74,
+      3
+    ],
+    [
+      90,
+      4
+    ],
+    [
+      101,
+      1
+    ],
+    [
+      104,
+      1
+    ],
+    [
+      115,
+      1
+    ],
+    [
+      126,
+      3
+    ],
+    [
+      135,
+      4
+    ],
+    [
+      143,
+      0
+    ],
+    [
+      166,
+      1
+    ],
+    [
+      174,
+      3
+    ],
+    [
+      180,
+      3
+    ],
+    [
+      194,
+      4
+    ],
+    [
+      222,
+      0
+    ],
+    [
+      240,
+      1
+    ],
+    [
+      262,
+      2
+    ],
+    [
+      287,
+      2
+    ],
+    [
+      309,
+      4
+    ],
+    [
+      328,
+      2
+    ]
+  ],
+  "trap": 0.5,
+  "schema": 1,
+  "stats": {
+    "random_loss": 30.5,
+    "smart_win": 100
+  },
+  "floor": 0.45,
+  "in_target": true
+}

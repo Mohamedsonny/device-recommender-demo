@@ -1,0 +1,209 @@
+{
+  "id": 12,
+  "garage": 1,
+  "garage_name": "جراج الحارة",
+  "item": "taameya",
+  "item_name": "طعمية",
+  "extreme": false,
+  "band": [
+    5,
+    15
+  ],
+  "w": 16,
+  "h": 20,
+  "palette": [
+    "#2BA39B",
+    "#F7F3EA",
+    "#7A4A2A"
+  ],
+  "cells": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAABAQEBAQEBAQEAAAAAAAABAQEBAQEBAQEBAQEAAAABAQECAgEBAQICAgEBAQAAAQECAgICAQICAgICAQEAAQEBAgICAgECAgICAgEBAAEBAQICAgIBAgICAgIBAQEBAQEBAgICAgICAgIBAQEAAAEBAQEBAgICAgEBAQEBAAABAQEBAQICAgIBAQEBAQAAAAEBAQECAgICAQEBAQAAAAAAAQEBAQEBAQEBAQAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+  "queues": [
+    [
+      {
+        "c": 0,
+        "n": 22
+      },
+      {
+        "c": 0,
+        "n": 8
+      },
+      {
+        "c": 2,
+        "n": 8
+      },
+      {
+        "c": 1,
+        "n": 9
+      },
+      {
+        "c": 0,
+        "n": 14
+      },
+      {
+        "c": 0,
+        "n": 21
+      },
+      {
+        "c": 0,
+        "n": 19
+      }
+    ],
+    [
+      {
+        "c": 0,
+        "n": 9
+      },
+      {
+        "c": 0,
+        "n": 8
+      },
+      {
+        "c": 0,
+        "n": 13
+      },
+      {
+        "c": 0,
+        "n": 10
+      },
+      {
+        "c": 0,
+        "n": 24
+      },
+      {
+        "c": 1,
+        "n": 21
+      }
+    ],
+    [
+      {
+        "c": 1,
+        "n": 15
+      },
+      {
+        "c": 1,
+        "n": 19
+      },
+      {
+        "c": 2,
+        "n": 24
+      },
+      {
+        "c": 1,
+        "n": 17
+      },
+      {
+        "c": 1,
+        "n": 13
+      },
+      {
+        "c": 2,
+        "n": 20
+      },
+      {
+        "c": 1,
+        "n": 8
+      },
+      {
+        "c": 0,
+        "n": 18
+      }
+    ]
+  ],
+  "bays": 5,
+  "gate": "bottom",
+  "cars_per_tick": 3,
+  "solution": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      12,
+      1
+    ],
+    [
+      17,
+      2
+    ],
+    [
+      17,
+      0
+    ],
+    [
+      21,
+      1
+    ],
+    [
+      24,
+      2
+    ],
+    [
+      29,
+      2
+    ],
+    [
+      40,
+      1
+    ],
+    [
+      44,
+      2
+    ],
+    [
+      56,
+      2
+    ],
+    [
+      61,
+      2
+    ],
+    [
+      75,
+      2
+    ],
+    [
+      79,
+      0
+    ],
+    [
+      86,
+      1
+    ],
+    [
+      105,
+      0
+    ],
+    [
+      118,
+      0
+    ],
+    [
+      129,
+      0
+    ],
+    [
+      143,
+      2
+    ],
+    [
+      156,
+      0
+    ]
+  ],
+  "trap": 0.5,
+  "schema": 1,
+  "stats": {
+    "random_loss": 14.5,
+    "smart_win": 100
+  },
+  "floor": 0,
+  "in_target": true
+}

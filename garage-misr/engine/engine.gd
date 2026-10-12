@@ -26,6 +26,13 @@ func load_level(lv: Dictionary) -> PackedStringArray:
 	return errs
 
 
+## Loads without validation. Only for the generator, which invents trailers as it plays.
+func load_unchecked(lv: Dictionary) -> void:
+	level = lv
+	_rev = 0
+	_reset()
+
+
 ## Queues a command for the next step: {"type": "tap", "queue": n} or {"type": "restart"}.
 func push_command(cmd: Dictionary) -> void:
 	push_command_at(state.tick, cmd)

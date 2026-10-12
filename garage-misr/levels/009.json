@@ -1,0 +1,178 @@
+{
+  "id": 9,
+  "garage": 1,
+  "garage_name": "جراج الحارة",
+  "item": "shay",
+  "item_name": "كوباية شاي",
+  "extreme": false,
+  "band": [
+    5,
+    15
+  ],
+  "w": 16,
+  "h": 20,
+  "palette": [
+    "#2BA39B",
+    "#F7F3EA",
+    "#B4472F",
+    "#9AA0A6"
+  ],
+  "cells": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAAAAAAAAAAAAAQEBAQEBAQAAAAAAAAAAAAEBAQEBAQEAAAAAAAAAAAAAAgICAgIBAAAAAAAAAAAAAAICAgICAAAAAAAAAAAAAAACAgICAgAAAAAAAAAAAAAAAgICAgIAAAAAAAAAAAAAAAICAgICAAAAAAAAAAAAAAACAgICAgAAAAAAAAAAAAAAAgICAgIAAAAAAAADAwMDAwECAgICAwMDAwMDAwMDAwMBAQEBAQMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM=",
+  "queues": [
+    [
+      {
+        "c": 3,
+        "n": 22
+      },
+      {
+        "c": 3,
+        "n": 18
+      },
+      {
+        "c": 0,
+        "n": 19
+      },
+      {
+        "c": 0,
+        "n": 21
+      }
+    ],
+    [
+      {
+        "c": 3,
+        "n": 22
+      },
+      {
+        "c": 1,
+        "n": 14
+      },
+      {
+        "c": 2,
+        "n": 15
+      },
+      {
+        "c": 1,
+        "n": 14
+      },
+      {
+        "c": 0,
+        "n": 11
+      },
+      {
+        "c": 0,
+        "n": 22
+      },
+      {
+        "c": 0,
+        "n": 18
+      }
+    ],
+    [
+      {
+        "c": 3,
+        "n": 24
+      },
+      {
+        "c": 2,
+        "n": 24
+      },
+      {
+        "c": 0,
+        "n": 12
+      },
+      {
+        "c": 0,
+        "n": 18
+      },
+      {
+        "c": 0,
+        "n": 23
+      },
+      {
+        "c": 0,
+        "n": 23
+      }
+    ]
+  ],
+  "bays": 5,
+  "gate": "bottom",
+  "cars_per_tick": 3,
+  "solution": [
+    [
+      0,
+      0
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      14,
+      2
+    ],
+    [
+      22,
+      0
+    ],
+    [
+      23,
+      1
+    ],
+    [
+      30,
+      2
+    ],
+    [
+      33,
+      0
+    ],
+    [
+      44,
+      2
+    ],
+    [
+      52,
+      2
+    ],
+    [
+      66,
+      2
+    ],
+    [
+      66,
+      1
+    ],
+    [
+      85,
+      2
+    ],
+    [
+      103,
+      1
+    ],
+    [
+      113,
+      1
+    ],
+    [
+      125,
+      1
+    ],
+    [
+      140,
+      0
+    ],
+    [
+      154,
+      1
+    ]
+  ],
+  "trap": 0.375,
+  "schema": 1,
+  "stats": {
+    "random_loss": 10.5,
+    "smart_win": 100
+  },
+  "floor": 0.3,
+  "in_target": true
+}

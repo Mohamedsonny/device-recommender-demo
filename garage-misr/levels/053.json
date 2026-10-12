@@ -1,0 +1,277 @@
+{
+  "id": 53,
+  "garage": 3,
+  "garage_name": "جراج المول",
+  "item": "qatayef",
+  "item_name": "قطايف",
+  "extreme": false,
+  "band": [
+    30,
+    45
+  ],
+  "w": 24,
+  "h": 30,
+  "palette": [
+    "#7B4B94",
+    "#F7F3EA",
+    "#E3C58F",
+    "#F4E6C8",
+    "#2BA39B"
+  ],
+  "cells": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQECAQEBAAAAAAAAAAAAAAAAAAAAAQEBAgICAgIBAQEAAAAAAAAAAAAAAAEBAQECAgICAgICAQEBAQAAAAAAAAAAAQEBAQECAgICAgICAQEBAQEAAAAAAAABAQEBAQICAgICAgICAgEBAQEBAAAAAAEBAQEBAgICAgMDAwICAgIBAQEBAQAAAAEBAQECAgICAgMDAwICAgICAgEBAQAAAAEBAQICAgICAgIBAQICAgICAgEBAQEAAQEBAgICAgICAgIBAgICAgICAgIBAQEAAQEBAgICAgICAgIBAgICAgICAgIBAQEAAQEBAgIDAwMDAgICAgIDAwMDAgIBAQEAAQEBAgIDAwMDAgICAgIDAwMDAgICAQEABAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEEBAEBAQEBAQEBAQEBAQEBAQEBAQEBAQQEBAEBAQEBAQEBAQEBAQEBAQEBAQEBAQQEBAQBAQEBAQEBAQEBAQEBAQEBAQEBBAQEBAQEAQEBAQEBAQEBAQEBAQEBAQEEBAQEBAQEBAEBAQEBAQEBAQEBAQEBAQQEBAQEBAQEBAQEAQEBAQEBAQEBAQEEBAQEBAQEBAQEBAQEBAQBAQEBAQEBBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE",
+  "queues": [
+    [
+      {
+        "c": 1,
+        "n": 18
+      },
+      {
+        "c": 1,
+        "n": 30
+      },
+      {
+        "c": 1,
+        "n": 32
+      },
+      {
+        "c": 1,
+        "n": 13,
+        "hidden": true
+      },
+      {
+        "c": 1,
+        "n": 30
+      },
+      {
+        "c": 2,
+        "n": 25
+      },
+      {
+        "c": 3,
+        "n": 22
+      },
+      {
+        "c": 1,
+        "n": 12
+      }
+    ],
+    [
+      {
+        "c": 4,
+        "n": 19
+      },
+      {
+        "c": 4,
+        "n": 27,
+        "hidden": true
+      },
+      {
+        "c": 4,
+        "n": 20
+      },
+      {
+        "c": 4,
+        "n": 24
+      },
+      {
+        "c": 1,
+        "n": 33
+      },
+      {
+        "c": 1,
+        "n": 30
+      },
+      {
+        "c": 0,
+        "n": 13
+      },
+      {
+        "tow": true,
+        "n": 8
+      }
+    ],
+    [
+      {
+        "c": 4,
+        "n": 22
+      },
+      {
+        "c": 1,
+        "n": 26
+      },
+      {
+        "c": 0,
+        "n": 30
+      },
+      {
+        "c": 0,
+        "n": 22
+      },
+      {
+        "c": 0,
+        "n": 30
+      },
+      {
+        "c": 0,
+        "n": 32,
+        "hidden": true
+      }
+    ],
+    [
+      {
+        "c": 4,
+        "n": 43
+      },
+      {
+        "c": 0,
+        "n": 20
+      },
+      {
+        "c": 2,
+        "n": 28
+      },
+      {
+        "c": 2,
+        "n": 29,
+        "hidden": true
+      },
+      {
+        "c": 2,
+        "n": 30
+      },
+      {
+        "c": 0,
+        "n": 26
+      },
+      {
+        "c": 0,
+        "n": 34
+      }
+    ]
+  ],
+  "bays": 5,
+  "gate": "bottom",
+  "cars_per_tick": 3,
+  "solution": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      13,
+      1
+    ],
+    [
+      19,
+      1
+    ],
+    [
+      23,
+      1
+    ],
+    [
+      27,
+      3
+    ],
+    [
+      42,
+      0
+    ],
+    [
+      50,
+      0
+    ],
+    [
+      62,
+      0
+    ],
+    [
+      76,
+      0
+    ],
+    [
+      80,
+      0
+    ],
+    [
+      86,
+      0
+    ],
+    [
+      86,
+      0
+    ],
+    [
+      88,
+      3
+    ],
+    [
+      108,
+      3
+    ],
+    [
+      120,
+      1
+    ],
+    [
+      130,
+      3
+    ],
+    [
+      158,
+      3
+    ],
+    [
+      170,
+      0
+    ],
+    [
+      180,
+      3
+    ],
+    [
+      184,
+      2
+    ],
+    [
+      217,
+      2
+    ],
+    [
+      241,
+      2
+    ],
+    [
+      257,
+      1
+    ],
+    [
+      265,
+      2
+    ],
+    [
+      288,
+      3
+    ],
+    [
+      309,
+      2
+    ]
+  ],
+  "trap": 0.5,
+  "schema": 1,
+  "stats": {
+    "random_loss": 40.5,
+    "smart_win": 100
+  },
+  "floor": 0.4,
+  "in_target": false
+}

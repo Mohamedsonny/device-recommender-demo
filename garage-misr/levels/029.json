@@ -1,0 +1,253 @@
+{
+  "id": 29,
+  "garage": 2,
+  "garage_name": "جراج وسط البلد",
+  "item": "arabeyet_ful",
+  "item_name": "عربية فول",
+  "extreme": false,
+  "band": [
+    20,
+    35
+  ],
+  "w": 20,
+  "h": 26,
+  "palette": [
+    "#7FC4E8",
+    "#D9A520",
+    "#B4472F",
+    "#E3C58F",
+    "#3A2A1E"
+  ],
+  "cells": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAAAAAEBAQEBAAAAAAAAAAAAAAAAAAABAQEBAQEBAAAAAAAAAAAAAAAAAAEBAQEBAQEAAAAAAAAAAAACAgICAgEBAQEBAgICAgIAAAAAAAICAgICAgIBAgICAgICAgAAAAAAAgICAgICAgICAgICAgICAAADAwMCAgICAgICAgICAgICAgIDAwMDAwICAgICAgICAgICAgICAgMDAwMDAgICAgICAgICAgICAgICAwMDAwMCAgICAgICAgICAgICAgIDAwMDAwICAgICAgICAgICAgICAgMDAwMDAgIEBAQCAgICAgQEBAICAwMDAwMDBAQEBAMDAwMDBAQEBAMDAwMDAwMEBAQEAwMDAwMEBAQEAwMDAwMDAwMEBAQDAwMDAwQEBAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw==",
+  "queues": [
+    [
+      {
+        "c": 3,
+        "n": 28
+      },
+      {
+        "c": 2,
+        "n": 13
+      },
+      {
+        "c": 2,
+        "n": 17
+      },
+      {
+        "c": 1,
+        "n": 10
+      },
+      {
+        "c": 0,
+        "n": 22
+      },
+      {
+        "c": 0,
+        "n": 12
+      }
+    ],
+    [
+      {
+        "c": 3,
+        "n": 29
+      },
+      {
+        "c": 4,
+        "n": 28
+      },
+      {
+        "c": 3,
+        "n": 27
+      },
+      {
+        "c": 2,
+        "n": 16
+      },
+      {
+        "c": 0,
+        "n": 12
+      },
+      {
+        "c": 0,
+        "n": 10
+      },
+      {
+        "c": 0,
+        "n": 30
+      }
+    ],
+    [
+      {
+        "c": 3,
+        "n": 29
+      },
+      {
+        "c": 3,
+        "n": 12
+      },
+      {
+        "c": 2,
+        "n": 29
+      },
+      {
+        "c": 0,
+        "n": 10
+      },
+      {
+        "c": 0,
+        "n": 24
+      },
+      {
+        "c": 0,
+        "n": 29
+      },
+      {
+        "c": 0,
+        "n": 21
+      }
+    ],
+    [
+      {
+        "c": 3,
+        "n": 11
+      },
+      {
+        "c": 3,
+        "n": 12
+      },
+      {
+        "c": 2,
+        "n": 20
+      },
+      {
+        "c": 2,
+        "n": 28
+      },
+      {
+        "c": 1,
+        "n": 18
+      },
+      {
+        "c": 0,
+        "n": 23
+      }
+    ]
+  ],
+  "bays": 5,
+  "gate": "bottom",
+  "cars_per_tick": 3,
+  "solution": [
+    [
+      0,
+      1
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      16,
+      3
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      24,
+      1
+    ],
+    [
+      31,
+      2
+    ],
+    [
+      38,
+      3
+    ],
+    [
+      45,
+      0
+    ],
+    [
+      48,
+      1
+    ],
+    [
+      53,
+      2
+    ],
+    [
+      69,
+      3
+    ],
+    [
+      80,
+      0
+    ],
+    [
+      90,
+      1
+    ],
+    [
+      94,
+      2
+    ],
+    [
+      101,
+      3
+    ],
+    [
+      111,
+      0
+    ],
+    [
+      116,
+      1
+    ],
+    [
+      131,
+      2
+    ],
+    [
+      134,
+      3
+    ],
+    [
+      152,
+      0
+    ],
+    [
+      169,
+      1
+    ],
+    [
+      179,
+      2
+    ],
+    [
+      197,
+      3
+    ],
+    [
+      213,
+      0
+    ],
+    [
+      224,
+      1
+    ],
+    [
+      244,
+      2
+    ]
+  ],
+  "trap": 0,
+  "schema": 1,
+  "stats": {
+    "random_loss": 22,
+    "smart_win": 100
+  },
+  "floor": 0.5,
+  "in_target": true
+}

@@ -1,0 +1,217 @@
+{
+  "id": 6,
+  "garage": 1,
+  "garage_name": "جراج الحارة",
+  "item": "ful",
+  "item_name": "فول",
+  "extreme": false,
+  "band": [
+    5,
+    15
+  ],
+  "w": 16,
+  "h": 20,
+  "palette": [
+    "#E3C58F",
+    "#2BA39B",
+    "#8B5A2B"
+  ],
+  "cells": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAQAAAQEBAQEBAQEBAQEBAQEAAgIBAQEBAQEBAQEBAQECAgICAQEBAQEBAQEBAQEBAgICAgIBAQEBAQEBAQEBAgICAgICAgEBAQEBAQECAgICAgICAgICAgEBAQECAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgI=",
+  "queues": [
+    [
+      {
+        "c": 2,
+        "n": 16
+      },
+      {
+        "c": 2,
+        "n": 10
+      },
+      {
+        "c": 1,
+        "n": 21
+      },
+      {
+        "c": 1,
+        "n": 10
+      },
+      {
+        "c": 0,
+        "n": 22
+      },
+      {
+        "c": 0,
+        "n": 24
+      },
+      {
+        "c": 0,
+        "n": 10
+      }
+    ],
+    [
+      {
+        "c": 2,
+        "n": 19
+      },
+      {
+        "c": 2,
+        "n": 11
+      },
+      {
+        "c": 1,
+        "n": 18
+      },
+      {
+        "c": 0,
+        "n": 23
+      },
+      {
+        "c": 0,
+        "n": 11
+      },
+      {
+        "c": 0,
+        "n": 12
+      },
+      {
+        "c": 0,
+        "n": 9
+      },
+      {
+        "c": 0,
+        "n": 15
+      }
+    ],
+    [
+      {
+        "c": 2,
+        "n": 17
+      },
+      {
+        "c": 1,
+        "n": 12
+      },
+      {
+        "c": 2,
+        "n": 10
+      },
+      {
+        "c": 1,
+        "n": 12
+      },
+      {
+        "c": 0,
+        "n": 15
+      },
+      {
+        "c": 0,
+        "n": 12
+      },
+      {
+        "c": 0,
+        "n": 11
+      }
+    ]
+  ],
+  "bays": 5,
+  "gate": "bottom",
+  "cars_per_tick": 3,
+  "solution": [
+    [
+      0,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      11,
+      0
+    ],
+    [
+      17,
+      1
+    ],
+    [
+      17,
+      2
+    ],
+    [
+      22,
+      0
+    ],
+    [
+      29,
+      1
+    ],
+    [
+      31,
+      2
+    ],
+    [
+      38,
+      0
+    ],
+    [
+      47,
+      1
+    ],
+    [
+      51,
+      2
+    ],
+    [
+      58,
+      0
+    ],
+    [
+      74,
+      1
+    ],
+    [
+      79,
+      2
+    ],
+    [
+      88,
+      0
+    ],
+    [
+      104,
+      1
+    ],
+    [
+      109,
+      2
+    ],
+    [
+      118,
+      0
+    ],
+    [
+      139,
+      1
+    ],
+    [
+      142,
+      2
+    ],
+    [
+      153,
+      0
+    ],
+    [
+      161,
+      1
+    ]
+  ],
+  "trap": 0,
+  "schema": 1,
+  "stats": {
+    "random_loss": 10.5,
+    "smart_win": 100
+  },
+  "floor": 0.4,
+  "in_target": true
+}

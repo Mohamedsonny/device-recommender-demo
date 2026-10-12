@@ -1,0 +1,260 @@
+{
+  "id": 25,
+  "garage": 2,
+  "garage_name": "جراج وسط البلد",
+  "item": "kebda",
+  "item_name": "كبدة",
+  "extreme": false,
+  "band": [
+    20,
+    35
+  ],
+  "w": 20,
+  "h": 26,
+  "palette": [
+    "#D9A520",
+    "#E3C58F",
+    "#6B3E26",
+    "#4F8A3C"
+  ],
+  "cells": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEAAAAAAAAAAQEBAQEBAQEBAQEBAQEAAAAAAAEBAQICAwMCAgICAgIBAQEAAAABAQICAgICAwMCAgICAwMCAQEAAAEBAgICAgICAwMCAgICAgIBAQAAAQEBAgICAgIDAgICAgICAQEBAAAAAQEBAQECAgICAgIBAQEBAQAAAAABAQEBAQEBAQEBAQEBAQEBAAAAAAABAQEBAQEBAQEBAQEBAQAAAAAAAAAAAQEBAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+  "queues": [
+    [
+      {
+        "c": 0,
+        "n": 10
+      },
+      {
+        "c": 0,
+        "n": 10
+      },
+      {
+        "c": 0,
+        "n": 16
+      },
+      {
+        "c": 0,
+        "n": 18
+      },
+      {
+        "c": 0,
+        "n": 15
+      },
+      {
+        "c": 0,
+        "n": 22
+      },
+      {
+        "c": 0,
+        "n": 10
+      }
+    ],
+    [
+      {
+        "c": 2,
+        "n": 14
+      },
+      {
+        "c": 3,
+        "n": 9
+      },
+      {
+        "c": 2,
+        "n": 21
+      },
+      {
+        "c": 1,
+        "n": 30
+      },
+      {
+        "c": 2,
+        "n": 12
+      },
+      {
+        "c": 1,
+        "n": 18
+      },
+      {
+        "c": 0,
+        "n": 27
+      }
+    ],
+    [
+      {
+        "c": 0,
+        "n": 18
+      },
+      {
+        "c": 0,
+        "n": 26
+      },
+      {
+        "c": 0,
+        "n": 26
+      },
+      {
+        "c": 0,
+        "n": 26
+      },
+      {
+        "c": 0,
+        "n": 16
+      },
+      {
+        "c": 0,
+        "n": 24
+      }
+    ],
+    [
+      {
+        "c": 0,
+        "n": 18
+      },
+      {
+        "c": 0,
+        "n": 24
+      },
+      {
+        "c": 0,
+        "n": 30
+      },
+      {
+        "c": 1,
+        "n": 19
+      },
+      {
+        "c": 1,
+        "n": 10
+      },
+      {
+        "c": 0,
+        "n": 26
+      },
+      {
+        "c": 1,
+        "n": 25
+      }
+    ]
+  ],
+  "bays": 5,
+  "gate": "bottom",
+  "cars_per_tick": 3,
+  "solution": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      13,
+      0
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      24,
+      0
+    ],
+    [
+      29,
+      3
+    ],
+    [
+      33,
+      3
+    ],
+    [
+      43,
+      3
+    ],
+    [
+      51,
+      3
+    ],
+    [
+      62,
+      3
+    ],
+    [
+      63,
+      3
+    ],
+    [
+      68,
+      3
+    ],
+    [
+      78,
+      1
+    ],
+    [
+      88,
+      1
+    ],
+    [
+      89,
+      1
+    ],
+    [
+      99,
+      1
+    ],
+    [
+      109,
+      1
+    ],
+    [
+      139,
+      1
+    ],
+    [
+      139,
+      1
+    ],
+    [
+      167,
+      2
+    ],
+    [
+      179,
+      2
+    ],
+    [
+      196,
+      2
+    ],
+    [
+      213,
+      2
+    ],
+    [
+      236,
+      2
+    ],
+    [
+      244,
+      2
+    ]
+  ],
+  "trap": 1,
+  "schema": 1,
+  "stats": {
+    "random_loss": 26.5,
+    "smart_win": 100
+  },
+  "floor": 0,
+  "in_target": true
+}

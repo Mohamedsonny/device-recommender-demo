@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dgcni380wt34x"
+
+[deps]
+
+files=["res://reports/before.garage.translation", "res://reports/before.item.translation", "res://reports/before.random.translation", "res://reports/before.smart.translation"]
+
+source_file="res://reports/before.csv"
+dest_files=["res://reports/before.garage.translation", "res://reports/before.item.translation", "res://reports/before.random.translation", "res://reports/before.smart.translation"]
+
+[params]
+
+compress=true
+delimiter=0

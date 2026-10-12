@@ -1,0 +1,336 @@
+{
+  "id": 83,
+  "garage": 5,
+  "garage_name": "جراج الساحل",
+  "item": "shamsiya",
+  "item_name": "شمسية",
+  "extreme": false,
+  "band": [
+    50,
+    65
+  ],
+  "w": 28,
+  "h": 36,
+  "palette": [
+    "#7FC4E8",
+    "#F2D14B",
+    "#F7F3EA",
+    "#D93A3A",
+    "#6B3E26",
+    "#1F6FA8",
+    "#7B4B94",
+    "#E3C58F"
+  ],
+  "cells": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAACAgIAAwMCAgIDAwACAgIAAAEBAQAAAAAAAAAAAgICAwMDAgICAwMDAgICAAAAAAAAAAAAAAAAAAICAgMDAwICAgMDAwICAgAAAAAAAAAAAAAAAAMCAgIDAwMCAgIDAwMCAgIDAAAAAAAAAAAAAAMDAgICAwMDAgICAwMDAgICAwMAAAAAAAAAAAADAwICAgMDAwICAgMDAwICAgMDAAAAAAAAAAADAwMCAgIDAwMCAgIDAwMCAgIDAwMAAAAAAAAAAwMDAgICAwMDAgICAwMDAgICAwMDAAAAAAAAAAMDAwICAgMDAwICAgMDAwICAgMDAwAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAUFBQUFBQUFBQUFBQQFBQUFBQUFBQUFBQUFBQAFBQUFBQUFBQUFBQUEBQUFBQUFBQUFBQUFBQUABQUFBQUFBQUFBQUFBAUFBQUFBQUFBQUFBQUFAAUFBQUFBQUFBQUFBQQFBQUFBQUFBQUFBQUFBQYHBwcHBwcHBwcHBwcEBwcHBwcHBwcHBwcHBwcGBwcHBwcHBwcHBwcHBAcHBwcHBwcHBwcHBwcHBgcHBwcHBwcHBwcHBwQHBwcHBwcHBwcHBwcHBwYHBwcHBwcHBwcHBwcEBwcHBwcHBwcHBwcHBwcGBwcHBwcHBwcHBwcHBAcHBwcHBwcHBwcHBwcHBgcHBwcHBwcHBwcHBwQHBwcHBwcHBwcHBwcHBwYHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcGBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBgcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwYHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcG",
+  "queues": [
+    [
+      {
+        "c": 1,
+        "n": 16
+      },
+      {
+        "c": 0,
+        "n": 30
+      },
+      {
+        "c": 7,
+        "n": 53
+      },
+      {
+        "c": 3,
+        "n": 24,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 37
+      },
+      {
+        "c": 0,
+        "n": 29
+      },
+      {
+        "c": 0,
+        "n": 19
+      },
+      {
+        "c": 0,
+        "n": 31
+      },
+      {
+        "c": 0,
+        "n": 28
+      }
+    ],
+    [
+      {
+        "c": 0,
+        "n": 20
+      },
+      {
+        "c": 7,
+        "n": 15,
+        "hidden": true
+      },
+      {
+        "c": 7,
+        "n": 43,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 41
+      },
+      {
+        "c": 6,
+        "n": 11
+      },
+      {
+        "c": 0,
+        "n": 23
+      },
+      {
+        "c": 7,
+        "n": 15
+      }
+    ],
+    [
+      {
+        "c": 3,
+        "n": 28
+      },
+      {
+        "c": 2,
+        "n": 42
+      },
+      {
+        "c": 5,
+        "n": 44
+      },
+      {
+        "c": 0,
+        "n": 36,
+        "hidden": true
+      },
+      {
+        "c": 5,
+        "n": 31,
+        "hidden": true
+      },
+      {
+        "c": 5,
+        "n": 29
+      }
+    ],
+    [
+      {
+        "c": 0,
+        "n": 41
+      },
+      {
+        "c": 7,
+        "n": 41
+      },
+      {
+        "c": 7,
+        "n": 15
+      },
+      {
+        "c": 7,
+        "n": 43,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 38
+      },
+      {
+        "c": 4,
+        "n": 17
+      },
+      {
+        "tow": true,
+        "n": 7
+      }
+    ],
+    [
+      {
+        "c": 7,
+        "n": 39
+      },
+      {
+        "c": 3,
+        "n": 28
+      },
+      {
+        "c": 2,
+        "n": 20
+      },
+      {
+        "c": 0,
+        "n": 42
+      },
+      {
+        "c": 2,
+        "n": 19,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 20
+      }
+    ]
+  ],
+  "bays": 5,
+  "gate": [
+    "bottom",
+    "top"
+  ],
+  "cars_per_tick": 3,
+  "solution": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      11,
+      1
+    ],
+    [
+      19,
+      3
+    ],
+    [
+      20,
+      3
+    ],
+    [
+      21,
+      0
+    ],
+    [
+      30,
+      3
+    ],
+    [
+      39,
+      3
+    ],
+    [
+      40,
+      3
+    ],
+    [
+      41,
+      3
+    ],
+    [
+      50,
+      0
+    ],
+    [
+      61,
+      4
+    ],
+    [
+      66,
+      4
+    ],
+    [
+      70,
+      4
+    ],
+    [
+      75,
+      4
+    ],
+    [
+      81,
+      0
+    ],
+    [
+      89,
+      4
+    ],
+    [
+      100,
+      2
+    ],
+    [
+      108,
+      2
+    ],
+    [
+      109,
+      2
+    ],
+    [
+      121,
+      0
+    ],
+    [
+      131,
+      2
+    ],
+    [
+      133,
+      2
+    ],
+    [
+      154,
+      2
+    ],
+    [
+      154,
+      4
+    ],
+    [
+      160,
+      0
+    ],
+    [
+      170,
+      0
+    ],
+    [
+      177,
+      0
+    ],
+    [
+      182,
+      0
+    ],
+    [
+      191,
+      0
+    ]
+  ],
+  "trap": 0.875,
+  "schema": 1,
+  "stats": {
+    "random_loss": 59,
+    "smart_win": 100
+  },
+  "floor": 0.3,
+  "in_target": false
+}

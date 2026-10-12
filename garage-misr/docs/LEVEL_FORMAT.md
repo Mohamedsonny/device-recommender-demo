@@ -12,7 +12,7 @@ One JSON file per level in `levels/NNN.json`.
     [{"c": 1, "n": 20}, {"tow": true, "n": 6}]
   ],
   "bays": 5, "gate": "bottom", "cars_per_tick": 3,
-  "solution": [0, 1, 0, 1],
+  "solution": [[0, 1], [0, 0], [14, 1]],
   "schema": 1
 }
 ```
@@ -21,6 +21,11 @@ One JSON file per level in `levels/NNN.json`.
   `"cells"`: one string per row, one char per cell, `0-9a-z` = color, `.` = asphalt.
 - `queues[i][0]` is the front of queue i (the tappable trailer).
 - `n` must be positive. Tow trucks have no `c` and are not part of the balance.
-- `solution` is the queue-index tap order the generator produced; the validator replays it.
+- `solution` is the tap sequence the generator played: `[tick, queue]` pairs (ticks counted
+  from the start of the attempt). The validator replays it on the real engine and requires
+  a WIN.
+- Campaign levels also carry metadata the engine ignores: `garage`, `garage_name`, `item`,
+  `item_name`, `extreme`, `band`, `floor`, `trap`, `stats` (`random_loss`, `smart_win` over
+  200 games each) and `in_target`.
 - `LevelData.validate()` checks size, palette, colors, positive numbers, known gates and the
   per-color balance; `GameEngine.load_level()` refuses invalid levels.

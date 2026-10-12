@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://xf8ano7ucluk"
+
+[deps]
+
+files=["res://reports/before_004_100.hara.translation", "res://reports/before_004_100.shay.translation", "res://reports/before_004_100.0.0.translation", "res://reports/before_004_100.100.0.translation"]
+
+source_file="res://reports/before_004_100.csv"
+dest_files=["res://reports/before_004_100.hara.translation", "res://reports/before_004_100.shay.translation", "res://reports/before_004_100.0.0.translation", "res://reports/before_004_100.100.0.translation"]
+
+[params]
+
+compress=true
+delimiter=0

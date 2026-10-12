@@ -1,0 +1,101 @@
+level,garage,item,grid,colors,queues,trailers,extreme,floor,trap,random_loss_pct,smart_win_pct,band,in_band,in_target,valid
+1,hara,فول,16x20,3,3,20,false,0.00,0.000,0.0,100.0,0-0,true,true,true
+2,hara,طعمية,16x20,3,3,18,false,0.00,0.000,0.0,100.0,0-0,true,true,true
+3,hara,عيش بلدي,16x20,3,3,20,false,0.00,0.000,0.0,100.0,0-0,true,true,true
+4,hara,كوباية شاي,16x20,3,3,22,false,0.00,0.000,0.0,100.0,0-0,true,true,true
+5,hara,بيض,16x20,3,3,20,false,0.00,0.000,0.0,100.0,0-0,true,true,true
+6,hara,فول,16x20,3,3,22,false,0.40,0.000,10.5,100.0,5-15,true,true,true
+7,hara,طعمية,16x20,3,3,19,false,0.30,0.000,6.5,100.0,5-15,true,true,true
+8,hara,عيش بلدي,16x20,3,3,19,false,0.00,0.250,10.0,100.0,5-15,true,true,true
+9,hara,كوباية شاي,16x20,4,3,17,false,0.30,0.375,10.5,100.0,5-15,true,true,true
+10,hara,بيض,16x20,3,3,36,true,0.45,1.000,80.5,100.0,75-85,true,true,true
+11,hara,فول,16x20,4,3,19,false,0.30,0.125,6.5,100.0,5-15,true,true,true
+12,hara,طعمية,16x20,3,3,21,false,0.00,0.500,14.5,100.0,5-15,true,true,true
+13,hara,عيش بلدي,16x20,4,3,21,false,0.00,0.875,8.0,100.0,5-15,true,true,true
+14,hara,كوباية شاي,16x20,3,3,20,false,0.30,0.250,6.5,100.0,5-15,true,true,true
+15,hara,بيض,16x20,4,3,19,false,0.45,0.000,10.5,100.0,5-15,true,true,true
+16,hara,فول,16x20,4,3,21,false,0.30,0.250,5.0,100.0,5-15,true,true,true
+17,hara,طعمية,16x20,3,3,18,false,0.30,0.625,7.0,100.0,5-15,true,true,true
+18,hara,عيش بلدي,16x20,4,3,20,false,0.30,0.000,13.0,100.0,5-15,true,true,true
+19,hara,كوباية شاي,16x20,4,3,18,false,0.45,0.000,7.5,100.0,5-15,true,true,true
+20,hara,بيض,16x20,4,3,39,true,0.00,0.500,84.5,100.0,75-85,true,true,true
+21,wust_el_balad,كشري,20x26,4,4,25,false,0.00,1.000,28.5,100.0,20-35,true,true,true
+22,wust_el_balad,حواوشي,20x26,4,4,25,false,0.00,0.625,20.5,100.0,20-35,true,true,true
+23,wust_el_balad,درة مشوية,20x26,4,4,28,false,0.45,0.000,21.0,100.0,20-35,true,true,true
+24,wust_el_balad,عربية فول,20x26,4,4,28,false,0.25,0.375,29.0,100.0,20-35,true,true,true
+25,wust_el_balad,كبدة,20x26,4,4,27,false,0.00,1.000,26.5,100.0,20-35,true,true,true
+26,wust_el_balad,كشري,20x26,5,4,25,false,0.50,0.375,31.0,100.0,20-35,true,false,true
+27,wust_el_balad,حواوشي,20x26,4,4,27,false,0.45,0.250,31.5,100.0,20-35,true,true,true
+28,wust_el_balad,درة مشوية,20x26,4,4,25,false,0.35,0.250,22.0,100.0,20-35,true,true,true
+29,wust_el_balad,عربية فول,20x26,5,4,26,false,0.50,0.000,22.0,100.0,20-35,true,true,true
+30,wust_el_balad,كبدة,20x26,3,4,43,true,0.00,0.875,75.5,100.0,75-85,true,true,true
+31,wust_el_balad,كشري,20x26,4,4,26,false,0.30,0.000,27.0,100.0,20-35,true,true,true
+32,wust_el_balad,حواوشي,20x26,4,4,25,false,0.45,0.000,24.5,100.0,20-35,true,true,true
+33,wust_el_balad,درة مشوية,20x26,4,4,24,false,0.45,0.875,30.5,100.0,20-35,true,true,true
+34,wust_el_balad,عربية فول,20x26,4,4,30,false,0.20,0.000,27.0,100.0,20-35,true,true,true
+35,wust_el_balad,كبدة,20x26,5,4,24,false,0.00,0.625,27.0,100.0,20-35,true,true,true
+36,wust_el_balad,كشري,20x26,4,4,25,false,0.00,0.625,29.0,100.0,20-35,true,true,true
+37,wust_el_balad,حواوشي,20x26,4,4,25,false,0.00,1.000,25.0,100.0,20-35,true,true,true
+38,wust_el_balad,درة مشوية,20x26,4,4,26,false,0.30,0.000,23.5,100.0,20-35,true,true,true
+39,wust_el_balad,عربية فول,20x26,4,4,24,false,0.30,0.500,32.0,100.0,20-35,true,true,true
+40,wust_el_balad,كبدة,20x26,5,4,45,true,0.30,0.250,76.0,100.0,75-85,true,true,true
+41,mall,كنافة,24x30,5,4,31,false,0.00,0.125,31.5,100.0,30-45,true,true,true
+42,mall,بسبوسة,24x30,5,4,33,false,0.30,0.125,40.5,100.0,30-45,true,true,true
+43,mall,قطايف,24x30,5,4,31,false,0.30,0.375,32.0,100.0,30-45,true,true,true
+44,mall,أم علي,24x30,5,5,33,false,0.00,0.250,35.5,100.0,30-45,true,true,true
+45,mall,آيس كريم,24x30,5,4,31,false,0.40,0.750,44.5,100.0,30-45,true,true,true
+46,mall,كنافة,24x30,5,5,29,false,0.00,0.625,35.0,100.0,30-45,true,true,true
+47,mall,بسبوسة,24x30,5,5,33,false,0.00,0.375,33.5,100.0,30-45,true,true,true
+48,mall,قطايف,24x30,5,4,28,false,0.20,0.125,40.0,100.0,30-45,true,true,true
+49,mall,أم علي,24x30,5,4,32,false,0.00,1.000,37.0,100.0,30-45,true,true,true
+50,mall,آيس كريم,24x30,5,4,55,true,0.30,0.750,82.5,100.0,75-85,true,true,true
+51,mall,كنافة,24x30,6,5,30,false,0.30,0.125,42.5,100.0,30-45,true,true,true
+52,mall,بسبوسة,24x30,5,5,31,false,0.00,0.625,32.0,100.0,30-45,true,true,true
+53,mall,قطايف,24x30,5,4,28,false,0.40,0.500,40.5,100.0,30-45,true,false,true
+54,mall,أم علي,24x30,5,4,31,false,0.25,0.500,37.0,100.0,30-45,true,false,true
+55,mall,آيس كريم,24x30,6,4,35,false,0.45,0.625,31.0,100.0,30-45,true,true,true
+56,mall,كنافة,24x30,5,4,33,false,0.30,0.250,31.0,100.0,30-45,true,true,true
+57,mall,بسبوسة,24x30,5,5,30,false,0.45,0.000,39.5,100.0,30-45,true,true,true
+58,mall,قطايف,24x30,5,4,31,false,0.20,0.375,36.0,100.0,30-45,true,true,true
+59,mall,أم علي,24x30,5,5,31,false,0.45,0.500,30.5,100.0,30-45,true,true,true
+60,mall,آيس كريم,24x30,6,5,51,true,0.30,0.750,81.0,100.0,75-85,true,true,true
+61,ramadan,فانوس,26x32,6,5,33,false,0.30,0.500,42.0,100.0,40-55,true,true,true
+62,ramadan,كحك,26x32,6,5,30,false,0.30,0.375,45.5,100.0,40-55,true,true,true
+63,ramadan,ياميش,26x32,6,5,31,false,0.40,0.250,43.5,100.0,40-55,true,false,true
+64,ramadan,هلال,26x32,4,5,30,false,0.20,0.375,44.5,100.0,40-55,true,true,true
+65,ramadan,مدفع الإفطار,26x32,6,5,31,false,0.30,0.000,41.0,100.0,40-55,true,true,true
+66,ramadan,فانوس,26x32,6,5,31,false,0.25,0.500,53.0,100.0,40-55,true,true,true
+67,ramadan,كحك,26x32,6,5,30,false,0.00,1.000,45.0,100.0,40-55,true,true,true
+68,ramadan,ياميش,26x32,7,5,30,false,0.00,0.750,43.5,100.0,40-55,true,true,true
+69,ramadan,هلال,26x32,5,5,32,false,0.00,0.250,48.0,100.0,40-55,true,true,true
+70,ramadan,مدفع الإفطار,26x32,7,5,54,true,0.20,1.000,80.0,100.0,75-85,true,true,true
+71,ramadan,فانوس,26x32,6,5,34,false,0.40,0.375,41.0,100.0,40-55,true,true,true
+72,ramadan,كحك,26x32,6,5,31,false,0.30,0.750,49.5,100.0,40-55,true,true,true
+73,ramadan,ياميش,26x32,6,5,32,false,0.20,0.000,46.0,100.0,40-55,true,true,true
+74,ramadan,هلال,26x32,4,5,31,false,0.25,0.250,41.5,100.0,40-55,true,true,true
+75,ramadan,مدفع الإفطار,26x32,6,5,30,false,0.20,1.000,53.5,100.0,40-55,true,true,true
+76,ramadan,فانوس,26x32,6,5,31,false,0.30,0.000,40.0,100.0,40-55,true,true,true
+77,ramadan,كحك,26x32,6,5,30,false,0.20,0.375,42.5,100.0,40-55,true,true,true
+78,ramadan,ياميش,26x32,6,5,32,false,0.00,0.875,49.5,100.0,40-55,true,true,true
+79,ramadan,هلال,26x32,4,5,30,false,0.30,0.000,40.5,100.0,40-55,true,true,true
+80,ramadan,مدفع الإفطار,26x32,6,5,52,true,0.00,0.250,82.5,100.0,75-85,true,true,true
+81,sahel,بطيخ,28x36,6,5,32,false,0.50,0.125,64.5,100.0,50-65,true,true,true
+82,sahel,مانجا,28x36,6,5,35,false,0.45,0.500,53.5,100.0,50-65,true,true,true
+83,sahel,شمسية,28x36,8,5,34,false,0.30,0.875,59.0,100.0,50-65,true,false,true
+84,sahel,قصب,28x36,8,5,36,false,0.35,0.625,53.0,100.0,50-65,true,false,true
+85,sahel,سمكة,28x36,6,5,37,false,0.35,0.000,55.0,100.0,50-65,true,true,true
+86,sahel,بطيخ,28x36,6,5,33,false,0.30,0.000,54.5,100.0,50-65,true,true,true
+87,sahel,مانجا,28x36,7,5,38,false,0.40,0.750,56.5,100.0,50-65,true,false,true
+88,sahel,شمسية,28x36,8,5,35,false,0.35,0.625,54.5,100.0,50-65,true,true,true
+89,sahel,قصب,28x36,8,5,33,false,0.20,0.250,54.0,100.0,50-65,true,true,true
+90,sahel,سمكة,28x36,6,5,58,true,0.50,0.250,77.0,100.0,75-85,true,true,true
+91,sahel,بطيخ,28x36,7,5,36,false,0.20,0.500,57.5,100.0,50-65,true,true,true
+92,sahel,مانجا,28x36,6,5,32,false,0.20,0.250,53.0,100.0,50-65,true,true,true
+93,sahel,شمسية,28x36,7,5,31,false,0.45,1.000,64.0,100.0,50-65,true,true,true
+94,sahel,قصب,28x36,6,5,33,false,0.30,0.625,51.0,100.0,50-65,true,true,true
+95,sahel,سمكة,28x36,6,5,35,false,0.45,0.500,51.0,100.0,50-65,true,true,true
+96,sahel,بطيخ,28x36,6,5,35,false,0.45,0.750,64.5,100.0,50-65,true,true,true
+97,sahel,مانجا,28x36,6,5,31,false,0.45,0.750,52.5,100.0,50-65,true,true,true
+98,sahel,شمسية,28x36,6,5,33,false,0.30,0.250,57.5,100.0,50-65,true,true,true
+99,sahel,قصب,28x36,8,5,37,false,0.00,0.750,55.5,100.0,50-65,true,false,true
+100,sahel,سمكة,28x36,5,5,58,true,0.45,0.750,80.0,100.0,75-85,true,true,true

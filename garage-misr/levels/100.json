@@ -1,0 +1,526 @@
+{
+  "id": 100,
+  "garage": 5,
+  "garage_name": "جراج الساحل",
+  "item": "samaka",
+  "item_name": "سمكة",
+  "extreme": true,
+  "band": [
+    75,
+    85
+  ],
+  "w": 28,
+  "h": 36,
+  "palette": [
+    "#1F6FA8",
+    "#D93A3A",
+    "#F08A24",
+    "#4F8A3C",
+    "#E3C58F"
+  ],
+  "cells": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgIBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAICAgICAgICAgIAAAAAAAABAAAAAAAAAAAAAAICAgICAgICAgICAgAAAAABAQAAAAAAAAAAAAACAgICAgICAgICAgICAAABAQEAAAAAAAAAAAACAgICAgICAgICAgICAgABAQEBAAAAAAAAAAAAAgICAgICAgICAgICAgIBAQEBAQAAAAAAAAAAAAICAgICAgICAgICAgICAAEBAQEAAAAAAAAAAAAAAgICAgICAgICAgICAgAAAQEBAAAAAAAAAAAAAAICAgICAgICAgICAgAAAAABAQAAAAADAwMDAwMDAwICAgICAgICAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwICAgIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAMDBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAwMEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAMDBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD",
+  "queues": [
+    [
+      {
+        "c": 4,
+        "n": 9
+      },
+      {
+        "c": 2,
+        "n": 22
+      },
+      {
+        "c": 3,
+        "n": 18,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 20
+      },
+      {
+        "c": 1,
+        "n": 10
+      },
+      {
+        "c": 0,
+        "n": 11
+      },
+      {
+        "c": 2,
+        "n": 11
+      },
+      {
+        "c": 2,
+        "n": 15
+      },
+      {
+        "c": 1,
+        "n": 20
+      },
+      {
+        "c": 0,
+        "n": 25
+      }
+    ],
+    [
+      {
+        "c": 4,
+        "n": 23
+      },
+      {
+        "c": 2,
+        "n": 16
+      },
+      {
+        "c": 2,
+        "n": 19
+      },
+      {
+        "c": 0,
+        "n": 20,
+        "hidden": true
+      },
+      {
+        "c": 2,
+        "n": 23
+      },
+      {
+        "c": 0,
+        "n": 12,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 16,
+        "hidden": true
+      },
+      {
+        "c": 2,
+        "n": 12
+      },
+      {
+        "c": 0,
+        "n": 25
+      },
+      {
+        "c": 0,
+        "n": 25,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 18,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 10
+      },
+      {
+        "c": 0,
+        "n": 14
+      },
+      {
+        "tow": true,
+        "n": 7
+      }
+    ],
+    [
+      {
+        "c": 3,
+        "n": 22
+      },
+      {
+        "c": 0,
+        "n": 23,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 17
+      },
+      {
+        "c": 0,
+        "n": 18
+      },
+      {
+        "c": 0,
+        "n": 19
+      },
+      {
+        "c": 0,
+        "n": 25
+      },
+      {
+        "c": 0,
+        "n": 21
+      },
+      {
+        "c": 0,
+        "n": 13,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 15
+      },
+      {
+        "c": 0,
+        "n": 13
+      },
+      {
+        "c": 0,
+        "n": 20,
+        "hidden": true
+      }
+    ],
+    [
+      {
+        "c": 3,
+        "n": 21
+      },
+      {
+        "c": 3,
+        "n": 16
+      },
+      {
+        "c": 3,
+        "n": 18
+      },
+      {
+        "c": 4,
+        "n": 12
+      },
+      {
+        "c": 4,
+        "n": 23
+      },
+      {
+        "c": 4,
+        "n": 13,
+        "hidden": true
+      },
+      {
+        "c": 4,
+        "n": 20
+      },
+      {
+        "c": 4,
+        "n": 9
+      }
+    ],
+    [
+      {
+        "c": 4,
+        "n": 10
+      },
+      {
+        "c": 4,
+        "n": 11
+      },
+      {
+        "c": 3,
+        "n": 27,
+        "hidden": true
+      },
+      {
+        "c": 3,
+        "n": 17
+      },
+      {
+        "c": 3,
+        "n": 19
+      },
+      {
+        "c": 3,
+        "n": 24
+      },
+      {
+        "c": 3,
+        "n": 22
+      },
+      {
+        "c": 3,
+        "n": 15
+      },
+      {
+        "c": 3,
+        "n": 10
+      },
+      {
+        "c": 3,
+        "n": 17
+      },
+      {
+        "c": 3,
+        "n": 15
+      },
+      {
+        "c": 3,
+        "n": 18
+      },
+      {
+        "c": 3,
+        "n": 14
+      },
+      {
+        "c": 3,
+        "n": 12
+      },
+      {
+        "c": 0,
+        "n": 24
+      },
+      {
+        "c": 0,
+        "n": 21
+      }
+    ]
+  ],
+  "bays": 5,
+  "gate": "bottom",
+  "cars_per_tick": 3,
+  "solution": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      14,
+      3
+    ],
+    [
+      18,
+      4
+    ],
+    [
+      22,
+      0
+    ],
+    [
+      23,
+      3
+    ],
+    [
+      30,
+      3
+    ],
+    [
+      33,
+      3
+    ],
+    [
+      39,
+      3
+    ],
+    [
+      41,
+      4
+    ],
+    [
+      48,
+      4
+    ],
+    [
+      55,
+      4
+    ],
+    [
+      62,
+      4
+    ],
+    [
+      66,
+      4
+    ],
+    [
+      75,
+      4
+    ],
+    [
+      83,
+      4
+    ],
+    [
+      88,
+      4
+    ],
+    [
+      91,
+      4
+    ],
+    [
+      97,
+      4
+    ],
+    [
+      103,
+      4
+    ],
+    [
+      109,
+      4
+    ],
+    [
+      115,
+      0
+    ],
+    [
+      116,
+      0
+    ],
+    [
+      124,
+      4
+    ],
+    [
+      132,
+      0
+    ],
+    [
+      139,
+      1
+    ],
+    [
+      141,
+      0
+    ],
+    [
+      147,
+      0
+    ],
+    [
+      158,
+      4
+    ],
+    [
+      160,
+      0
+    ],
+    [
+      165,
+      0
+    ],
+    [
+      177,
+      0
+    ],
+    [
+      179,
+      1
+    ],
+    [
+      197,
+      1
+    ],
+    [
+      202,
+      1
+    ],
+    [
+      218,
+      1
+    ],
+    [
+      229,
+      1
+    ],
+    [
+      230,
+      1
+    ],
+    [
+      243,
+      1
+    ],
+    [
+      261,
+      1
+    ],
+    [
+      277,
+      1
+    ],
+    [
+      284,
+      2
+    ],
+    [
+      299,
+      1
+    ],
+    [
+      309,
+      1
+    ],
+    [
+      315,
+      2
+    ],
+    [
+      329,
+      2
+    ],
+    [
+      336,
+      2
+    ],
+    [
+      351,
+      2
+    ],
+    [
+      369,
+      2
+    ],
+    [
+      384,
+      0
+    ],
+    [
+      402,
+      2
+    ],
+    [
+      410,
+      2
+    ],
+    [
+      423,
+      2
+    ],
+    [
+      431,
+      4
+    ],
+    [
+      447,
+      2
+    ]
+  ],
+  "trap": 0.75,
+  "schema": 1,
+  "stats": {
+    "random_loss": 80,
+    "smart_win": 100
+  },
+  "floor": 0.45,
+  "in_target": true
+}

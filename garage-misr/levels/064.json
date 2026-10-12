@@ -1,0 +1,295 @@
+{
+  "id": 64,
+  "garage": 4,
+  "garage_name": "جراج ليالي رمضان",
+  "item": "helal",
+  "item_name": "هلال",
+  "extreme": false,
+  "band": [
+    40,
+    55
+  ],
+  "w": 26,
+  "h": 32,
+  "palette": [
+    "#1F2A44",
+    "#D9A520",
+    "#3A2A1E",
+    "#8B5A2B"
+  ],
+  "cells": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEAAAAAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAICAgICAAAAAAACAAAAAAAAAAAAAAAAAAACAgICAgICAAAAAAIAAAAAAAAAAAAAAAAAAAICAgICAgIAAAAAAgAAAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgACAgICAgICAgICAgICAgICAgICAgICAgICAAICAgICAgICAgICAgICAgICAgICAgICAgIAAgICAgICAgICAgICAgICAgICAgICAgICAgACAgICAgICAgICAgICAgICAgICAgICAgICAAICAgICAgICAgICAgICAgICAgICAgICAgIDAgICAgICAgICAgICAgICAgICAgICAgICAgMCAgICAgICAgICAgICAgICAgICAgICAgICAwICAgICAgICAgICAgICAgICAgICAgICAgIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw==",
+  "queues": [
+    [
+      {
+        "c": 2,
+        "n": 26
+      },
+      {
+        "c": 0,
+        "n": 38
+      },
+      {
+        "c": 0,
+        "n": 15
+      },
+      {
+        "c": 0,
+        "n": 28
+      },
+      {
+        "c": 0,
+        "n": 42
+      }
+    ],
+    [
+      {
+        "c": 3,
+        "n": 40
+      },
+      {
+        "c": 3,
+        "n": 16
+      },
+      {
+        "c": 2,
+        "n": 38
+      },
+      {
+        "c": 2,
+        "n": 23,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 14,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 24
+      }
+    ],
+    [
+      {
+        "c": 0,
+        "n": 28
+      },
+      {
+        "c": 0,
+        "n": 19
+      }
+    ],
+    [
+      {
+        "c": 2,
+        "n": 19
+      },
+      {
+        "c": 2,
+        "n": 38
+      },
+      {
+        "c": 0,
+        "n": 28
+      },
+      {
+        "c": 0,
+        "n": 33,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 25
+      },
+      {
+        "c": 0,
+        "n": 15
+      },
+      {
+        "c": 0,
+        "n": 26
+      },
+      {
+        "c": 0,
+        "n": 25,
+        "hidden": true
+      },
+      {
+        "c": 0,
+        "n": 39
+      }
+    ],
+    [
+      {
+        "c": 2,
+        "n": 24
+      },
+      {
+        "c": 0,
+        "n": 33
+      },
+      {
+        "c": 2,
+        "n": 34,
+        "hidden": true
+      },
+      {
+        "c": 2,
+        "n": 30
+      },
+      {
+        "c": 2,
+        "n": 21
+      },
+      {
+        "c": 0,
+        "n": 38
+      },
+      {
+        "c": 1,
+        "n": 28
+      },
+      {
+        "c": 0,
+        "n": 25
+      },
+      {
+        "tow": true,
+        "n": 8
+      }
+    ]
+  ],
+  "bays": 5,
+  "gate": "bottom",
+  "cars_per_tick": 3,
+  "solution": [
+    [
+      0,
+      1
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      13,
+      3
+    ],
+    [
+      17,
+      4
+    ],
+    [
+      24,
+      0
+    ],
+    [
+      30,
+      1
+    ],
+    [
+      40,
+      4
+    ],
+    [
+      41,
+      3
+    ],
+    [
+      53,
+      4
+    ],
+    [
+      65,
+      4
+    ],
+    [
+      75,
+      1
+    ],
+    [
+      88,
+      4
+    ],
+    [
+      96,
+      3
+    ],
+    [
+      109,
+      4
+    ],
+    [
+      126,
+      0
+    ],
+    [
+      145,
+      1
+    ],
+    [
+      150,
+      0
+    ],
+    [
+      159,
+      3
+    ],
+    [
+      161,
+      4
+    ],
+    [
+      178,
+      0
+    ],
+    [
+      198,
+      3
+    ],
+    [
+      214,
+      3
+    ],
+    [
+      220,
+      3
+    ],
+    [
+      236,
+      3
+    ],
+    [
+      255,
+      2
+    ],
+    [
+      276,
+      1
+    ],
+    [
+      294,
+      2
+    ],
+    [
+      300,
+      3
+    ],
+    [
+      332,
+      4
+    ],
+    [
+      349,
+      0
+    ]
+  ],
+  "trap": 0.375,
+  "schema": 1,
+  "stats": {
+    "random_loss": 44.5,
+    "smart_win": 100
+  },
+  "floor": 0.2,
+  "in_target": true
+}
